@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="main_content" class="flex flex-row relative bottom-14">
+    <div id="main_content" class="flex flex-col lg:flex-row relative bottom-14">
       <div id="image_section" class="bg-main-back-200">
         <!-- the images part of the signup goes in here -->
         <img src="../assets/logo.svg" alt=" drwakit logo" class="p-3 m-3" />
@@ -17,10 +17,10 @@
           <img
             src="../assets/google.png"
             alt=""
-            class="w-5 h-5 ml-14 md:ml-3 mr-7 relative top-4 pointer-events-none"
+            class="w-5 h-5 ml-14 md:ml-3 xs:mr-10 mr-7 relative top-4 pointer-events-none"
           />
           <a href="#" class="">
-            <span class="font-bold text-lg md:ml-4 relative bottom-2"
+            <span class="font-bold text-lg md:ml-4 xs:ml-14 relative bottom-2"
               >Sign in with Google</span
             >
           </a>
